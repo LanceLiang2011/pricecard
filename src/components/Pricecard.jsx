@@ -154,7 +154,6 @@ const SliderRoot = styled(Slider.Root)`
   user-select: none;
   touch-action: none;
   width: 100%;
-  height: 8px;
 
   @media (max-width: 560px) {
     transform: translateY(-400%);
@@ -165,7 +164,7 @@ const SliderTrack = styled(Slider.Track)`
   position: relative;
   flex-grow: 1;
   border-radius: 9999px;
-  height: 3px;
+  height: 8px;
 `;
 const SliderRange = styled(Slider.Range)`
   position: absolute;

@@ -82,7 +82,7 @@ const Wrapper = styled.form`
   overflow: hidden;
 
   margin: 0 auto;
-  padding: 58px 46px;
+  padding: 48px 46px;
   transform: translateY(-50%);
 
   display: flex;

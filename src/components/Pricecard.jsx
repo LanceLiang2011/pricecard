@@ -279,6 +279,8 @@ const Start = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  border-top: 1px solid #ecf0fb;
+  padding-top: 32px;
 
   @media (max-width: 560px) {
     flex-direction: column;

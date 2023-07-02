@@ -89,6 +89,7 @@ const Wrapper = styled.form`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  gap: 24px;
 
   @media (max-width: 560px) {
     height: 478px;
@@ -154,7 +155,7 @@ const SliderRoot = styled(Slider.Root)`
   user-select: none;
   touch-action: none;
   width: 100%;
-
+  margin-top: 16px;
   @media (max-width: 560px) {
     transform: translateY(-400%);
   }
@@ -195,6 +196,7 @@ const SwitchWrapper = styled.div`
   padding-right: 17px;
   gap: 9px;
   width: 100%;
+  margin-top: 24px;
 
   label {
     font-size: 0.75rem;

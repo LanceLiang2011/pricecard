@@ -15,7 +15,7 @@ export default function Header() {
 
 const Wrapper = styled.div`
   background: hsl(224 85% 97%);
-  height: 433px;
+  height: 460px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,7 +25,7 @@ const Wrapper = styled.div`
 
   @media (max-width: 560px) {
     padding: 32px;
-    height: 380px;
+    height: 390px;
     text-align: center;
   }
 `;

@@ -287,6 +287,7 @@ const Start = styled.div`
     gap: 32px;
     position: relative;
     top: -8%;
+    padding-top: 16px;
   }
 `;
 

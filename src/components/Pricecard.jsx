@@ -30,7 +30,7 @@ export default function Pricecard() {
             : pageViewOptions[pageView]}
           {pageView === pageViewOptions.length - 1 ? "m" : "k"} pageviews
         </Pageview>
-        <Price>{shownPrice}</Price>
+        <Price>{shownPrice}.00</Price>
       </PriceTag>
       <SliderRoot
         min={0}

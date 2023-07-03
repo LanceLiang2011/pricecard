@@ -57,7 +57,7 @@ export default function Pricecard() {
             setDiscount(checked);
           }}
         >
-          <SwitchThumb aria-checked="false" aria-label="Switch button" />
+          <SwitchThumb aria-checked="false" />
         </SwitchRoot>
         <label htmlFor="billing">Yearly Billing</label>
         <DiscountTag>25%</DiscountTag>

@@ -183,6 +183,7 @@ const SliderThumb = styled(Slider.Thumb)`
   display: grid;
   place-items: center;
   box-shadow: 0 15px 30px hsla(174 100% 50% / 0.6);
+  cursor: pointer;
 
   &:hover {
     background-color: hsl(174 65% 41%);
@@ -235,6 +236,7 @@ const SwitchThumb = styled(Switch.Thumb)`
   transition: transform 100ms;
   transform: translateX(4px);
   will-change: transform;
+  cursor: pointer;
 
   &[data-state="checked"] {
     transform: translateX(25px);
@@ -327,6 +329,7 @@ const StartBtn = styled.button`
   font-weight: 800;
   padding: 12px 46px;
   border-radius: 20.5px;
+  cursor: pointer;
 
   &:hover {
     color: ${COLORS.white};

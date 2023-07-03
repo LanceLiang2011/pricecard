@@ -43,20 +43,21 @@ export default function Pricecard() {
         <SliderTrack>
           <SliderRange />
         </SliderTrack>
-        <SliderThumb>
-          <img src={sliderIcon} />
+        <SliderThumb aria-label="Slider button">
+          <img src={sliderIcon} alt="left and right arror on the button" />
         </SliderThumb>
       </SliderRoot>
       <SwitchWrapper>
         <Fill> </Fill>
         <label htmlFor="billing">Monthly Billing</label>
         <SwitchRoot
+          id="billing"
           checked={discount}
           onCheckedChange={(checked) => {
             setDiscount(checked);
           }}
         >
-          <SwitchThumb />
+          <SwitchThumb aria-label="Switch button" />
         </SwitchRoot>
         <label htmlFor="billing">Yearly Billing</label>
         <DiscountTag>25%</DiscountTag>
